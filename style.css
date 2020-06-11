@@ -219,12 +219,38 @@ header button:hover {
 .latest_box .box4:nth-child(5) {
 	flex-basis: 48%;
 }
-.wrapper_creative {
+.text {
 	width: 100%;
 	height: 700px;
 	background: #00C3B2;
 	float: left;
-	padding-left: 180px;
+	padding-top: 135px;
+}
+.text .box_text4 {
+	
+	width: 80%;
+	margin: auto;
+	height: auto;
+	/*float: left;*/
+
+}
+.text .box_text4 i {
+	font-size: 4em;
+}
+.text .box_text4 p {
+	width: 50%;
+	padding-top: 40px;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+.text img {
+	width: 175px;
+}
+.text p {
+	padding-top: 30px
+}
+.text h2 {
+	padding-top: 20px;
 }
 
 .wrapper_contact {
@@ -430,9 +456,16 @@ footer .fa-twitter:hover {
 	.latest_box .box4:nth-child(5), .latest_box .box4:nth-child(6), .latest_box .box4:nth-child(7) {
 		display: none;
 	}
-	.text {
-		height: 200px;
+	/*.text {
+		height: 400px;
+		float: left;
 	}
+
+	.text4 .box_text4 i{font-size: 16px;width: 300px;
+		background: red;
+		margin-left:-90%;}*/
+
+
 	.contacts {
 		margin: 60px auto;
 		flex-direction: column;
@@ -468,6 +501,39 @@ footer .fa-twitter:hover {
 	}
 	.wrapper_form .form_box p{
 		font-size: 14px;
+	}
+	.text {
+		width: 100%;
+		height: auto;
+		padding: 1.5em 0;
+		background: #00C3B2;
+		float: left;
+		padding-top: 40px;
+
+	}
+	/*.text .box_text4 {
+		
+		width: 80%;
+		float: left;
+
+	}*/
+	.text .box_text4 i {
+		font-size: 4em;
+	}
+	.text .box_text4 p {
+		width: 100%;
+		padding-top: 20px;
+		font-size: 14px;
+		line-height: 1.4em;
+	}
+	.text img {
+		width: 175px;
+	}
+	.text p {
+		padding-top: 30px
+	}
+	.text h2 {
+		padding-top: 20px;
 	}
 
 }
